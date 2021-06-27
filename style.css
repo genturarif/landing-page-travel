@@ -1,0 +1,116 @@
+/* Navbar */
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+.nav-link,
+.navbar-brand {
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Poppins", sans-serif;
+  color: white !important;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-brand:hover {
+  color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.text {
+  padding-top: 11rem;
+  margin-left: 2rem;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+.text p {
+  font-size: 1.2rem;
+}
+.text h1 {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+.text h1 span {
+  font-weight: 600;
+}
+.btn {
+  margin-top: 1.2rem;
+  background-color: #da723c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.btn:hover {
+  color: white;
+  box-shadow: 1px 1px 3px black;
+}
+
+/* Responsive Breakpoints */
+/* Desktop Version */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar {
+    background: transparent !important;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav-link,
+  .navbar-brand {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px black;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav-link:hover {
+    color: white;
+  }
+  .navbar-brand:hover {
+    color: white;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #da723c;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+  }
+  .text {
+    padding-top: 7rem;
+    margin-left: 5.5rem;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+  }
+  .text p {
+    font-size: 1.5rem;
+  }
+  .text h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+  }
+  .text h1 span {
+    font-weight: 600;
+  }
+  .btn {
+    margin-top: 1.2rem;
+    background-color: #da723c;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  .btn:hover {
+    color: white;
+    box-shadow: 1px 1px 3px black;
+  }
+}
